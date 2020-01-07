@@ -1,0 +1,53 @@
+{
+  "name": "webpack-pill",
+  "version": "1.0.0",
+  "description": "webpack pill for assembler school",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
+    "server": "webpack-dev-server --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pratd/webpack_basics.git"
+  },
+  "author": "prat d",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pratd/webpack_basics/issues"
+  },
+  "homepage": "https://github.com/pratd/webpack_basics#readme",
+  "devDependencies": {
+    "@babel/core": "^7.7.7",
+    "@babel/preset-env": "^7.7.7",
+    "autoprefixer": "^9.7.3",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.6",
+    "babel-preset-env": "^1.7.0",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "file-loader": "^5.0.2",
+    "html-webpack-plugin": "^3.2.0",
+    "node-sass": "^4.13.0",
+    "sass-loader": "^8.0.0",
+    "url-loader": "^3.0.0",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
+  },
+  "dependencies": {
+    "css-loader": "^3.4.1",
+    "es6-promise": "^4.2.8",
+    "html-loader": "^0.5.5",
+    "imagemin-gifsicle": "^6.0.1",
+    "imagemin-mozjpeg": "^8.0.0",
+    "imagemin-pngquant": "^8.0.0",
+    "imagemin-svgo": "^7.0.0",
+    "imagemin-webpack": "^5.1.1",
+    "imagemin-webpack-plugin": "^2.4.2",
+    "img-loader": "^3.0.1",
+    "jquery": "^3.4.1",
+    "postcss-loader": "^3.0.0",
+    "style-loader": "^1.1.2",
+    "webpack-dev-server": "^3.10.1"
+  }
+}

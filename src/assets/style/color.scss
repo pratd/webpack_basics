@@ -1,0 +1,17 @@
+$primary-color: #333;
+body {
+  color: $primary-color;
+}
+.dropbtn {
+    background-color: #9457eb;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    border-radius: 12px;
+    width:200px;
+}
+#holder3 {
+    max-width: 500px;
+    //margin-bottom: 100px;
+  }
